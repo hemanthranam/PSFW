@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paradise Steel Fabrication Works | SPEED LIFT Systems</title>
-    <meta name="description" content="Manufacturer of SPEED LIFT 250/500 Construction Materials Lifting Equipment. Reduce labor costs and increase efficiency today across India.">
+    <title>Careers & Internships | Paradise Steel Fabrication Works</title>
+    <meta name="description" content="Join our premier machinery manufacturing company in India. Apply for full-time mechanical/electrical jobs and structured engineering internships.">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,15 +24,11 @@
                         brand: {
                             50: '#fff7ed',
                             100: '#ffedd5',
-                            500: '#f97316', // Construction Orange
+                            500: '#f97316',
                             600: '#ea580c',
-                            900: '#0f172a', // Industrial Slate/Navy
+                            900: '#0f172a',
                             950: '#020617',
                         }
-                    },
-                    backgroundImage: {
-                        'hero-pattern': "linear-gradient(to right, rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.75)), url('https://images.unsplash.com/photo-1541888086425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')",
-                        'dots': "radial-gradient(circle, #cbd5e1 1px, transparent 1px)"
                     }
                 }
             }
@@ -43,10 +39,9 @@
         ::-webkit-scrollbar-track { background: #f1f5f9; }
         ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
-        .bg-dots { background-size: 20px 20px; }
     </style>
 </head>
-<body class="font-sans text-slate-600 bg-slate-50 antialiased selection:bg-brand-500 selection:text-white">
+<body class="font-sans text-slate-600 bg-slate-50 antialiased">
 
     <div class="bg-brand-950 text-slate-300 text-xs md:text-sm py-2 px-4">
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
@@ -57,7 +52,6 @@
             </div>
             <div class="flex items-center gap-4 font-medium text-white">
                 <span class="flex items-center gap-2"><i class="fas fa-phone-alt text-brand-500"></i> +91 94405 85329</span>
-                <span class="flex items-center gap-2"><i class="fas fa-phone-alt text-brand-500"></i> +91 95157 18708</span>
             </div>
         </div>
     </div>
@@ -65,7 +59,7 @@
     <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <div class="flex-shrink-0 flex items-center gap-3 cursor-pointer" onclick="window.scrollTo(0,0)">
+                <a href="index.html" class="flex-shrink-0 flex items-center gap-3">
                     <div class="w-10 h-10 bg-brand-500 rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-brand-500/30">
                         <i class="fas fa-layer-group"></i>
                     </div>
@@ -73,23 +67,23 @@
                         <span class="font-bold text-xl text-brand-900 leading-tight tracking-tight">Paradise Steel</span>
                         <span class="text-xs text-brand-500 font-semibold tracking-wider uppercase">Fabrication Works</span>
                     </div>
-                </div>
+                </a>
 
                 <nav class="hidden md:flex space-x-8">
-                    <a href="#about" class="text-slate-600 hover:text-brand-500 font-medium transition-colors duration-300">About</a>
-                    <a href="#machinery" class="text-slate-600 hover:text-brand-500 font-medium transition-colors duration-300">Machinery</a>
-                    <a href="#services" class="text-slate-600 hover:text-brand-500 font-medium transition-colors duration-300">Services & AMC</a>
-                    <a href="careers.html" class="text-slate-600 hover:text-brand-500 font-medium transition-colors duration-300">Careers & Internships</a>
+                    <a href="index.html#about" class="text-slate-600 hover:text-brand-500 font-medium transition-colors duration-300">About</a>
+                    <a href="index.html#machinery" class="text-slate-600 hover:text-brand-500 font-medium transition-colors duration-300">Machinery</a>
+                    <a href="index.html#services" class="text-slate-600 hover:text-brand-500 font-medium transition-colors duration-300">Services & AMC</a>
+                    <a href="careers.html" class="text-brand-500 font-medium">Careers & Internships</a>
                 </nav>
 
                 <div class="hidden md:flex items-center">
-                    <a href="#contact" class="bg-brand-500 hover:bg-brand-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-brand-500/30">
-                        Get a Free Quote
+                    <a href="#apply-form" class="bg-brand-500 hover:bg-brand-600 text-white px-6 py-2.5 rounded-full font-semibold transition-all duration-300">
+                        Apply Now
                     </a>
                 </div>
 
                 <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-btn" class="text-slate-600 hover:text-brand-900 focus:outline-none p-2">
+                    <button id="mobile-menu-btn" class="text-slate-600 focus:outline-none p-2">
                         <i class="fas fa-bars text-2xl"></i>
                     </button>
                 </div>
@@ -98,359 +92,172 @@
 
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-100 absolute w-full shadow-xl">
             <div class="px-4 pt-2 pb-6 space-y-1">
-                <a href="#about" class="block px-3 py-3 text-base font-medium text-slate-700 hover:text-brand-500 hover:bg-slate-50 rounded-md">About</a>
-                <a href="#machinery" class="block px-3 py-3 text-base font-medium text-slate-700 hover:text-brand-500 hover:bg-slate-50 rounded-md">Machinery</a>
-                <a href="#services" class="block px-3 py-3 text-base font-medium text-slate-700 hover:text-brand-500 hover:bg-slate-50 rounded-md">Services & AMC</a>
-                <a href="careers.html" class="block px-3 py-3 text-base font-medium text-slate-700 hover:text-brand-500 hover:bg-slate-50 rounded-md">Careers & Internships</a>
-                <a href="#contact" class="block px-3 py-3 mt-4 text-center text-base font-bold text-white bg-brand-500 rounded-md shadow-md">Get a Free Quote</a>
+                <a href="index.html#about" class="block px-3 py-3 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-md">About</a>
+                <a href="index.html#machinery" class="block px-3 py-3 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-md">Machinery</a>
+                <a href="index.html#services" class="block px-3 py-3 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-md">Services & AMC</a>
+                <a href="careers.html" class="block px-3 py-3 text-base font-bold text-brand-600 bg-brand-50 rounded-md">Careers & Internships</a>
+                <a href="#apply-form" class="block px-3 py-3 mt-4 text-center text-base font-bold text-white bg-brand-500 rounded-md">Apply Now</a>
             </div>
         </div>
     </header>
 
-    <section class="relative bg-hero-pattern bg-cover bg-center bg-no-repeat min-h-[90vh] flex items-center">
-        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-brand-950/90"></div>
-        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 flex flex-col md:flex-row items-center z-10">
-            <div class="w-full md:w-2/3 pr-0 md:pr-12">
-                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-brand-500 font-semibold text-sm mb-6 uppercase tracking-wider">
-                    <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
-                    Trusted Heavy Machinery Manufacturer
-                </div>
-                <h1 class="text-4xl md:text-5xl lg:text-7xl font-extrabold text-white leading-tight mb-6">
-                    Elevate Construction & <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-yellow-400">Slash Labor Costs.</span>
-                </h1>
-                <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl leading-relaxed">
-                    Transport raw construction material safely up to 10 floors effortlessly. Built with highly durable components, branded electrical parts, and customizable power setups across India.
-                </p>
-                <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="#contact" class="flex items-center justify-center gap-2 bg-brand-500 hover:bg-brand-600 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-brand-500/40">
-                        Request Pricing <i class="fas fa-arrow-right text-sm"></i>
-                    </a>
-                    <a href="#machinery" class="flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 hover:-translate-y-1">
-                        View Models
-                    </a>
-                </div>
-            </div>
-            
-            <div class="w-full md:w-1/3 mt-12 md:mt-0">
-                <div class="bg-white/10 backdrop-blur-lg border border-white/20 p-8 rounded-2xl shadow-2xl relative overflow-hidden">
-                    <div class="absolute -right-10 -top-10 w-32 h-32 bg-brand-500/30 rounded-full blur-3xl"></div>
-                    <h3 class="text-white text-xl font-bold mb-6 border-b border-white/10 pb-4">Engineering Highlights</h3>
-                    <ul class="space-y-6">
-                        <li class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-lg bg-brand-500/20 flex items-center justify-center text-brand-500 flex-shrink-0">
-                                <i class="fas fa-certificate"></i>
-                            </div>
-                            <div>
-                                <p class="text-white font-semibold">Branded Electricals</p>
-                                <p class="text-slate-400 text-sm">Industrial-grade components for long lifespans.</p>
-                            </div>
-                        </li>
-                        <li class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-lg bg-brand-500/20 flex items-center justify-center text-brand-500 flex-shrink-0">
-                                <i class="fas fa-bolt"></i>
-                            </div>
-                            <div>
-                                <p class="text-white font-semibold">Single / Three Phase</p>
-                                <p class="text-slate-400 text-sm">Highly adaptable power configurations.</p>
-                            </div>
-                        </li>
-                        <li class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-lg bg-brand-500/20 flex items-center justify-center text-brand-500 flex-shrink-0">
-                                <i class="fas fa-arrows-alt-v"></i>
-                            </div>
-                            <div>
-                                <p class="text-white font-semibold">Reaches Up to 10 Floors</p>
-                                <p class="text-slate-400 text-sm">Reliable long-line vertical material handling.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <section class="py-20 bg-brand-900 text-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3')] bg-cover bg-center opacity-10"></div>
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
+                Build the Future of <span class="text-brand-500">Heavy Machinery Manufacturing</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Join one of India's most trusted structural steel and lifting equipment fabricators. Shape your career designing, building, or servicing the SPEED LIFT lineup.
+            </p>
         </div>
     </section>
 
-    <section class="bg-brand-900 border-y border-slate-800 py-8">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row justify-around items-center gap-8 text-center">
-                <div class="transition-transform duration-300 hover:-translate-y-1">
-                    <p class="text-4xl font-extrabold text-white mb-1">1989</p>
-                    <p class="text-brand-500 font-medium text-sm tracking-widest uppercase">Established</p>
-                </div>
-                <div class="hidden md:block w-px h-12 bg-slate-700"></div>
-                <div class="transition-transform duration-300 hover:-translate-y-1">
-                    <p class="text-4xl font-extrabold text-white mb-1">500<span class="text-2xl text-slate-400">kg</span></p>
-                    <p class="text-brand-500 font-medium text-sm tracking-widest uppercase">Max Load Capacity</p>
-                </div>
-                <div class="hidden md:block w-px h-12 bg-slate-700"></div>
-                <div class="transition-transform duration-300 hover:-translate-y-1">
-                    <p class="text-4xl font-extrabold text-white mb-1">5000+</p>
-                    <p class="text-brand-500 font-medium text-sm tracking-widest uppercase">Satisfied Customers</p>
-                </div>
-                <div class="hidden md:block w-px h-12 bg-slate-700"></div>
-                <div class="transition-transform duration-300 hover:-translate-y-1">
-                    <p class="text-4xl font-extrabold text-white mb-1">10<span class="text-2xl text-slate-400">Floors</span></p>
-                    <p class="text-brand-500 font-medium text-sm tracking-widest uppercase">Max Long Line Reach</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="py-24 bg-white relative overflow-hidden">
-        <div class="absolute top-0 right-0 w-1/3 h-full bg-dots opacity-50 pointer-events-none"></div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="flex flex-col lg:flex-row items-center gap-16">
-                <div class="w-full lg:w-1/2">
-                    <div class="relative">
-                        <div class="absolute inset-0 border-2 border-brand-500 rounded-2xl translate-x-4 translate-y-4"></div>
-                        <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Heavy Machinery Manufacturing" class="relative rounded-2xl shadow-2xl object-cover h-[500px] w-full z-10">
-                        <div class="absolute -bottom-8 -left-8 bg-white p-6 rounded-xl shadow-xl z-20 max-w-[220px] border border-slate-100">
-                            <div class="flex items-center gap-3 text-brand-500 font-bold text-2xl mb-1">
-                                <i class="fas fa-cogs"></i> Strong Build
-                            </div>
-                            <p class="text-sm text-slate-600 font-medium">Robust Structural Steel</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full lg:w-1/2">
-                    <h2 class="text-brand-500 font-bold tracking-wider uppercase text-sm mb-2">About Paradise Steel</h2>
-                    <h3 class="text-3xl md:text-4xl font-extrabold text-brand-900 mb-6 leading-tight">
-                        Precision Engineering & Manufacturing Since 1989.
-                    </h3>
-                    <p class="text-slate-600 text-lg mb-6 leading-relaxed">
-                        Operating from Madanapalle, India, <strong>Paradise Steel Fabrication Works</strong> is an elite manufacturer, supplier, and distributor of robust construction machinery.
-                    </p>
-                    <p class="text-slate-600 text-lg mb-6 leading-relaxed">
-                        We specialize in long-line vertical material transportation. Our machines significantly decrease traditional project labor expenses by quickly shifting up to 500kg of material (including sand, concrete, stones, bricks, clay, steel, iron, wood, and sanitary ware) smoothly across structural sites ranging from homes to high-rise commercial malls.
-                    </p>
-                    <p class="text-slate-600 text-lg mb-8 leading-relaxed">
-                        Built for heavy-duty deployment with <strong>branded electrical components</strong>, low power consumption, and highly flexible single-phase or three-phase setups, our equipment provides contractors with peace of mind.
-                    </p>
-                    
-                    <a href="#contact" class="inline-flex items-center gap-2 text-brand-900 font-bold hover:text-brand-500 transition-colors duration-300">
-                        Enquire About Dealerships & Distributorships <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="machinery" class="py-24 bg-slate-50 relative border-t border-slate-200">
+    <section class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-brand-500 font-bold tracking-wider uppercase text-sm mb-2">Our Premium Machinery</h2>
-                <h3 class="text-3xl md:text-4xl font-extrabold text-brand-900 mb-4">
-                    SPEED LIFT Series Models
-                </h3>
-                <p class="text-slate-600 text-lg">
-                    Durable vertical lifting systems equipped with premium branded electronics, long-line structural stability, and tailored electrical feeds.
-                </p>
+                <h2 class="text-brand-500 font-bold tracking-wider uppercase text-sm mb-2">Grow With Us</h2>
+                <h3 class="text-3xl md:text-4xl font-extrabold text-brand-900">Current Openings</h3>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                <div class="bg-white rounded-3xl overflow-hidden shadow-xl border border-slate-100 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
-                    <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Speed Lift 250" class="w-full h-64 object-cover">
-                    <div class="p-8">
-                        <span class="inline-block px-4 py-1 rounded-full text-xs font-extrabold uppercase tracking-wider bg-brand-50 text-brand-600 mb-3 border border-brand-100">Flagship Model</span>
-                        <h4 class="text-2xl font-extrabold text-brand-900 mb-3">SPEED LIFT 250</h4>
-                        <p class="text-slate-600 text-base mb-6 leading-relaxed">
-                            Perfect for standard residential developments, independent houses, and mid-tier apartment projects. Designed for rapid on-site assembly and ultimate user safety.
-                        </p>
-                        <ul class="grid grid-cols-2 gap-3 mb-8 text-sm text-slate-700">
-                            <li class="flex items-center gap-2"><i class="fas fa-weight-hanging text-brand-500"></i> Max Load: 250 kg</li>
-                            <li class="flex items-center gap-2"><i class="fas fa-arrows-alt-v text-brand-500"></i> Reach: Multi-story</li>
-                            <li class="flex items-center gap-2"><i class="fas fa-bolt text-brand-500"></i> Power: Single / Three Phase</li>
-                            <li class="flex items-center gap-2"><i class="fas fa-plug text-brand-500"></i> Branded Electronics</li>
-                        </ul>
-                        <a href="#contact" class="block w-full text-center py-4 rounded-xl font-bold bg-brand-900 hover:bg-brand-500 text-white transition-colors duration-300">
-                            Get Spec Sheet & Quote
-                        </a>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-3xl overflow-hidden shadow-xl border border-slate-100 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
-                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356f12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Speed Lift 500" class="w-full h-64 object-cover">
-                    <div class="p-8">
-                        <span class="inline-block px-4 py-1 rounded-full text-xs font-extrabold uppercase tracking-wider bg-yellow-50 text-yellow-600 mb-3 border border-yellow-100">Heavy Duty</span>
-                        <h4 class="text-2xl font-extrabold text-brand-900 mb-3">SPEED LIFT 500</h4>
-                        <p class="text-slate-600 text-base mb-6 leading-relaxed">
-                            Engineered strictly for large-scale commercial malls, high-rise residential towers, and multi-story sites requiring long-line continuous vertical shifts.
-                        </p>
-                        <ul class="grid grid-cols-2 gap-3 mb-8 text-sm text-slate-700">
-                            <li class="flex items-center gap-2"><i class="fas fa-weight-hanging text-brand-500"></i> Max Load: 500 kg</li>
-                            <li class="flex items-center gap-2"><i class="fas fa-arrows-alt-v text-brand-500"></i> Reach: Up to 10 Floors</li>
-                            <li class="flex items-center gap-2"><i class="fas fa-bolt text-brand-500"></i> Power: Optimized 3 Phase</li>
-                            <li class="flex items-center gap-2"><i class="fas fa-plug text-brand-500"></i> Premium Electronics</li>
-                        </ul>
-                        <a href="#contact" class="block w-full text-center py-4 rounded-xl font-bold bg-brand-900 hover:bg-brand-500 text-white transition-colors duration-300">
-                            Get Spec Sheet & Quote
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services" class="py-24 bg-white border-t border-slate-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col lg:flex-row items-center gap-16">
-                <div class="w-full lg:w-1/2">
-                    <h2 class="text-brand-500 font-bold tracking-wider uppercase text-sm mb-2">After-Sales & Maintenance</h2>
-                    <h3 class="text-3xl md:text-4xl font-extrabold text-brand-900 mb-6 leading-tight">
-                        All-India Sales, Service, and Budget-Friendly AMC Plans
-                    </h3>
-                    <p class="text-slate-600 text-lg mb-6 leading-relaxed">
-                        At Paradise Steel Fabrication Works, our relationship doesn't end at delivery. We manage comprehensive equipment sales and fast support anywhere in India.
-                    </p>
-                    <p class="text-slate-600 text-lg mb-8 leading-relaxed">
-                        To guarantee zero project delays and continuous operations, we offer customized <strong>Annual Maintenance Contracts (AMC)</strong> that are entirely budget-friendly. Our certified field engineers guarantee fast on-site servicing.
-                    </p>
-                    
-                    <div class="grid grid-cols-2 gap-4 mb-8">
-                        <div class="flex items-start gap-3">
-                            <div class="w-10 h-10 rounded-lg bg-brand-50 flex items-center justify-center text-brand-500 flex-shrink-0">
-                                <i class="fas fa-tools"></i>
-                            </div>
-                            <div>
-                                <p class="text-slate-900 font-bold text-sm">24/7 Support</p>
-                                <p class="text-slate-500 text-xs mt-0.5">Quick issue resolution</p>
-                            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-20">
+                <div class="bg-slate-50 rounded-3xl p-10 border border-slate-100 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <h4 class="text-2xl font-bold text-brand-900">Senior Mechanical Fabricator</h4>
+                            <span class="px-3 py-1 bg-green-50 text-green-700 text-xs font-extrabold rounded-full border border-green-100 uppercase tracking-wider">Full Time</span>
                         </div>
-                        <div class="flex items-start gap-3">
-                            <div class="w-10 h-10 rounded-lg bg-brand-50 flex items-center justify-center text-brand-500 flex-shrink-0">
-                                <i class="fas fa-map-pin"></i>
-                            </div>
-                            <div>
-                                <p class="text-slate-900 font-bold text-sm">All Over India</p>
-                                <p class="text-slate-500 text-xs mt-0.5">Rapid service dispatch</p>
-                            </div>
-                        </div>
+                        <p class="text-sm text-slate-500 mb-6"><i class="fas fa-map-marker-alt mr-2 text-brand-500"></i> Madanapalle, Factory HQ</p>
+                        <p class="text-slate-600 mb-6 leading-relaxed">
+                            Looking for experienced mechanical engineers and fabricators to handle structural cutting, welding, and assembling of heavy material lifting equipment (SPEED LIFT series).
+                        </p>
+                        <h5 class="font-bold text-slate-900 mb-2 text-sm">Requirements:</h5>
+                        <ul class="list-disc list-inside text-sm text-slate-600 space-y-2 mb-6">
+                            <li>Minimum 3-5 years experience in steel or heavy fabrication.</li>
+                            <li>Strong knowledge of blueprint reading and safety standards.</li>
+                            <li>ITI, Diploma, or relevant mechanical engineering background.</li>
+                        </ul>
                     </div>
-                    
-                    <a href="#contact" class="bg-brand-500 hover:bg-brand-600 text-white px-8 py-4 rounded-xl font-bold transition-all duration-300 inline-block shadow-lg shadow-brand-500/20">
-                        Enroll in AMC Plan
+                    <a href="#apply-form" class="w-full py-4 bg-white border border-slate-200 hover:border-brand-500 text-slate-800 hover:text-brand-600 font-bold text-center rounded-xl transition-all">
+                        Apply for this Role
                     </a>
                 </div>
-                
-                <div class="w-full lg:w-1/2">
-                    <div class="relative">
-                        <img src="https://images.unsplash.com/photo-1504917595217-d4d576ed8820?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Machinery Service and Maintenance" class="rounded-2xl shadow-2xl object-cover h-[450px] w-full">
-                        <div class="absolute -top-6 -right-6 bg-brand-900 text-white p-6 rounded-2xl shadow-xl flex flex-col items-center justify-center w-36 h-36 border-4 border-white animate-pulse">
-                            <i class="fas fa-shield-alt text-3xl text-brand-500 mb-2"></i>
-                            <span class="font-extrabold text-sm text-center leading-tight">Max Uptime Guaranteed</span>
+
+                <div class="bg-slate-50 rounded-3xl p-10 border border-slate-100 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <h4 class="text-2xl font-bold text-brand-900">Field Service & Electrical Engineer</h4>
+                            <span class="px-3 py-1 bg-green-50 text-green-700 text-xs font-extrabold rounded-full border border-green-100 uppercase tracking-wider">Full Time</span>
                         </div>
+                        <p class="text-sm text-slate-500 mb-6"><i class="fas fa-map-marker-alt mr-2 text-brand-500"></i> All-India Dispatch / Service Hub</p>
+                        <p class="text-slate-600 mb-6 leading-relaxed">
+                            Dispatch across India to support AMC plans, perform installation of lifts up to 10 floors, and handle electrical or mechanical troubleshooting for our SPEED LIFT units.
+                        </p>
+                        <h5 class="font-bold text-slate-900 mb-2 text-sm">Requirements:</h5>
+                        <ul class="list-disc list-inside text-sm text-slate-600 space-y-2 mb-6">
+                            <li>Expertise handling single-phase and three-phase motor units.</li>
+                            <li>Willingness to travel pan-India for urgent service calls.</li>
+                            <li>Diploma/Degree in Electrical or Electronics engineering.</li>
+                        </ul>
+                    </div>
+                    <a href="#apply-form" class="w-full py-4 bg-white border border-slate-200 hover:border-brand-500 text-slate-800 hover:text-brand-600 font-bold text-center rounded-xl transition-all">
+                        Apply for this Role
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-brand-950 text-white rounded-3xl p-12 md:p-16 relative overflow-hidden shadow-2xl">
+                <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-brand-500/20 rounded-full blur-3xl"></div>
+                <div class="flex flex-col md:flex-row items-center gap-12 relative z-10">
+                    <div class="w-full md:w-1/2">
+                        <span class="inline-block px-4 py-1 rounded-full text-xs font-extrabold uppercase tracking-wider bg-brand-500/20 text-brand-400 mb-4 border border-brand-500/30">Limited Openings</span>
+                        <h3 class="text-3xl md:text-4xl font-extrabold mb-4">Engineering Internship Program</h3>
+                        <p class="text-brand-200 text-lg mb-6 leading-relaxed">
+                            Jumpstart your manufacturing career with structured internships at Paradise Steel Fabrication Works.
+                        </p>
+                        
+                        <div class="space-y-4 mb-8">
+                            <h4 class="font-bold text-white text-sm uppercase tracking-wider text-brand-500">Why Intern With Us?</h4>
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-brand-500 mt-1"></i>
+                                <span class="text-slate-300 text-sm"><strong>Real Industrial Exposure:</strong> Learn modern fabrication, heavy equipment planning, and factory operations.</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-brand-500 mt-1"></i>
+                                <span class="text-slate-300 text-sm"><strong>Direct Mentorship:</strong> Work side-by-side with senior mechanical engineers and electricians.</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-check-circle text-brand-500 mt-1"></i>
+                                <span class="text-slate-300 text-sm"><strong>PPO Opportunity:</strong> Exceptional interns are directly offered Full-Time Positions.</span>
+                            </div>
+                        </div>
+
+                        <a href="#apply-form" class="inline-block bg-brand-500 hover:bg-brand-600 text-white px-8 py-4 rounded-xl font-bold transition-all duration-300">
+                            Apply for Internship
+                        </a>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <img src="https://images.unsplash.com/photo-1537462715879-3600ab6bb7a4?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&q=80" alt="Engineering Internships" class="rounded-2xl shadow-xl object-cover h-[400px] w-full border border-slate-800">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="py-24 bg-brand-900 relative">
-        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1541888086425-d81bb19240f5?ixlib=rb-4.0.3')] bg-cover bg-center opacity-5"></div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col lg:flex-row">
-                
-                <div class="w-full lg:w-2/5 bg-brand-950 p-10 md:p-12 text-white flex flex-col justify-between">
+    <section id="apply-form" class="py-24 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white p-10 md:p-12 rounded-3xl shadow-xl border border-slate-100">
+                <div class="text-center mb-10">
+                    <h3 class="text-3xl font-extrabold text-brand-900 mb-2">Job Application Form</h3>
+                    <p class="text-slate-500 text-sm">Fill out the details below and attach your resume. We'll get back to you shortly.</p>
+                </div>
+
+                <form class="space-y-6" onsubmit="event.preventDefault(); alert('Application submitted successfully!');">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="app-name" class="block text-sm font-semibold text-slate-700 mb-2">Full Name</label>
+                            <input type="text" id="app-name" placeholder="John Doe" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-300" required>
+                        </div>
+                        <div>
+                            <label for="app-phone" class="block text-sm font-semibold text-slate-700 mb-2">Phone Number</label>
+                            <input type="tel" id="app-phone" placeholder="+91 XXXXX XXXXX" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-300" required>
+                        </div>
+                    </div>
+
                     <div>
-                        <h3 class="text-3xl font-extrabold mb-2">Get in Touch</h3>
-                        <p class="text-slate-400 mb-10 leading-relaxed">
-                            Looking for pricing, SPEED LIFT spec sheets, or distributorship opportunities across India? Contact our sales team directly.
-                        </p>
+                        <label for="app-email" class="block text-sm font-semibold text-slate-700 mb-2">Email Address</label>
+                        <input type="email" id="app-email" placeholder="john@company.com" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-300" required>
+                    </div>
 
-                        <div class="space-y-8">
-                            <div class="flex items-start gap-4">
-                                <div class="w-12 h-12 rounded-full bg-brand-500/20 flex items-center justify-center text-brand-500 flex-shrink-0">
-                                    <i class="fas fa-map-marker-alt text-xl"></i>
-                                </div>
-                                <div>
-                                    <p class="font-bold text-lg mb-1">Head Office & Factory</p>
-                                    <p class="text-slate-400 leading-relaxed">
-                                        E-13, 4th Cross, Industrial Estate,<br>
-                                        Madanapalle, Andhra Pradesh, India.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start gap-4">
-                                <div class="w-12 h-12 rounded-full bg-brand-500/20 flex items-center justify-center text-brand-500 flex-shrink-0">
-                                    <i class="fas fa-phone-alt text-xl"></i>
-                                </div>
-                                <div>
-                                    <p class="font-bold text-lg mb-1">Direct Lines</p>
-                                    <p class="text-slate-400">+91 94405 85329</p>
-                                    <p class="text-slate-400">+91 95157 18708</p>
-                                </div>
+                    <div>
+                        <label for="app-position" class="block text-sm font-semibold text-slate-700 mb-2">Applying For</label>
+                        <div class="relative">
+                            <select id="app-position" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-300 appearance-none" required>
+                                <option value="" disabled selected>Select a role or internship...</option>
+                                <option value="sr-fabricator">Senior Mechanical Fabricator</option>
+                                <option value="service-engineer">Field Service & Electrical Engineer</option>
+                                <option value="internship">Engineering Internship Program</option>
+                            </select>
+                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-slate-500">
+                                <i class="fas fa-chevron-down text-sm"></i>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="mt-12">
-                        <p class="text-sm text-slate-500 mb-4 uppercase tracking-wider font-semibold">Connect on Social</p>
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-white/10 hover:bg-brand-500 flex items-center justify-center text-white transition-all duration-300">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
+
+                    <div>
+                        <label for="app-resume" class="block text-sm font-semibold text-slate-700 mb-2">Attach Resume / CV (PDF)</label>
+                        <input type="file" id="app-resume" accept=".pdf" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-brand-50 file:text-brand-600 hover:file:bg-brand-100 focus:outline-none focus:ring-2 focus:ring-brand-500 transition-all duration-300" required>
                     </div>
-                </div>
 
-                <div class="w-full lg:w-3/5 p-10 md:p-12 bg-white">
-                    <h3 class="text-2xl font-bold text-brand-900 mb-6">Request a Quote</h3>
-                    <form class="space-y-6" onsubmit="event.preventDefault(); alert('Quote request submitted successfully! We will contact you shortly.');">
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div>
-                                <label for="name" class="block text-sm font-semibold text-slate-700 mb-2">Full Name</label>
-                                <input type="text" id="name" placeholder="John Doe" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-300" required>
-                            </div>
-                            <div>
-                                <label for="phone" class="block text-sm font-semibold text-slate-700 mb-2">Phone Number</label>
-                                <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-300" required>
-                            </div>
-                        </div>
+                    <div>
+                        <label for="app-cover" class="block text-sm font-semibold text-slate-700 mb-2">Cover Letter / Note</label>
+                        <textarea id="app-cover" rows="4" placeholder="Briefly explain your relevant experience, machinery knowledge, and why you want to work at Paradise Steel Fabrication Works..." class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-300"></textarea>
+                    </div>
 
-                        <div>
-                            <label for="email" class="block text-sm font-semibold text-slate-700 mb-2">Email Address</label>
-                            <input type="email" id="email" placeholder="john@company.com" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-300">
-                        </div>
-
-                        <div>
-                            <label for="interest" class="block text-sm font-semibold text-slate-700 mb-2">I am interested in:</label>
-                            <div class="relative">
-                                <select id="interest" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-300 appearance-none">
-                                    <option value="" disabled selected>Select an option...</option>
-                                    <option value="speed-lift-250">SPEED LIFT 250 (250kg Model)</option>
-                                    <option value="speed-lift-500">SPEED LIFT 500 (500kg Model)</option>
-                                    <option value="amc">Affordable AMC Plans / Servicing</option>
-                                    <option value="distributorship">Dealership / Distributorship Opportunity</option>
-                                </select>
-                                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-slate-500">
-                                    <i class="fas fa-chevron-down text-sm"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <label for="budget" class="block text-sm font-semibold text-slate-700 mb-2">Budget Allocation</label>
-                            <div class="relative">
-                                <select id="budget" class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-300 appearance-none">
-                                    <option value="" disabled selected>Choose a budget tier...</option>
-                                    <option value="budget-friendly">Budget Friendly / Entry Level</option>
-                                    <option value="standard">Standard Project Procurement</option>
-                                    <option value="enterprise">Heavy Duty / Enterprise Commercial</option>
-                                </select>
-                                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-slate-500">
-                                    <i class="fas fa-chevron-down text-sm"></i>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div>
-                            <label for="message" class="block text-sm font-semibold text-slate-700 mb-2">Project Description</label>
-                            <textarea id="message" rows="3" placeholder="Explain your building type, story height, and payload needs..." class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all duration-300"></textarea>
-                        </div>
-
-                        <button type="submit" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold py-4 rounded-xl shadow-lg shadow-brand-500/30 transition-all duration-300 hover:-translate-y-1 flex justify-center items-center gap-2">
-                            Send Request <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
-                </div>
+                    <button type="submit" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-extrabold py-4 rounded-xl shadow-lg shadow-brand-500/30 transition-all duration-300 hover:-translate-y-1">
+                        Submit Application
+                    </button>
+                </form>
             </div>
         </div>
     </section>
@@ -476,9 +283,9 @@
                 <div>
                     <h4 class="text-white font-bold mb-6">Quick Links</h4>
                     <ul class="space-y-3">
-                        <li><a href="#about" class="text-slate-400 hover:text-brand-500 text-sm transition-colors duration-300">About Us</a></li>
-                        <li><a href="#machinery" class="text-slate-400 hover:text-brand-500 text-sm transition-colors duration-300">SPEED LIFT Models</a></li>
-                        <li><a href="#services" class="text-slate-400 hover:text-brand-500 text-sm transition-colors duration-300">AMC & Maintenance</a></li>
+                        <li><a href="index.html#about" class="text-slate-400 hover:text-brand-500 text-sm transition-colors duration-300">About Us</a></li>
+                        <li><a href="index.html#machinery" class="text-slate-400 hover:text-brand-500 text-sm transition-colors duration-300">SPEED LIFT Models</a></li>
+                        <li><a href="index.html#services" class="text-slate-400 hover:text-brand-500 text-sm transition-colors duration-300">AMC Plans</a></li>
                         <li><a href="careers.html" class="text-slate-400 hover:text-brand-500 text-sm transition-colors duration-300">Careers & Internships</a></li>
                     </ul>
                 </div>
@@ -486,17 +293,17 @@
                 <div>
                     <h4 class="text-white font-bold mb-6">Machinery</h4>
                     <ul class="space-y-3">
-                        <li><a href="#machinery" class="text-slate-400 hover:text-brand-500 text-sm transition-colors duration-300">SPEED LIFT 250</a></li>
-                        <li><a href="#machinery" class="text-slate-400 hover:text-brand-500 text-sm transition-colors duration-300">SPEED LIFT 500</a></li>
-                        <li><a href="#services" class="text-slate-400 hover:text-brand-500 text-sm transition-colors duration-300">All-India Sales & Service</a></li>
+                        <li><a href="index.html#machinery" class="text-slate-400 hover:text-brand-500 text-sm transition-colors duration-300">SPEED LIFT 250</a></li>
+                        <li><a href="index.html#machinery" class="text-slate-400 hover:text-brand-500 text-sm transition-colors duration-300">SPEED LIFT 500</a></li>
+                        <li><a href="index.html#services" class="text-slate-400 hover:text-brand-500 text-sm transition-colors duration-300">All-India Sales & Service</a></li>
                     </ul>
                 </div>
 
                 <div>
-                    <h4 class="text-white font-bold mb-6">Ready to upgrade?</h4>
-                    <p class="text-slate-400 text-sm mb-4">Contact our lead engineers for specialized custom requirements.</p>
-                    <a href="#contact" class="inline-block bg-white/10 hover:bg-brand-500 text-white px-5 py-2.5 rounded-lg text-sm font-medium transition-colors duration-300 border border-white/10 hover:border-brand-500">
-                        Contact Us Now
+                    <h4 class="text-white font-bold mb-6">Join Our Ranks</h4>
+                    <p class="text-slate-400 text-sm mb-4">Apply today to scale up your professional growth.</p>
+                    <a href="#apply-form" class="inline-block bg-white/10 hover:bg-brand-500 text-white px-5 py-2.5 rounded-lg text-sm font-medium transition-colors duration-300 border border-white/10 hover:border-brand-500">
+                        Submit Resume
                     </a>
                 </div>
             </div>
@@ -521,12 +328,6 @@
             } else {
                 menu.classList.add('hidden');
             }
-        });
-        const mobileLinks = document.querySelectorAll('#mobile-menu a');
-        mobileLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                document.getElementById('mobile-menu').classList.add('hidden');
-            });
         });
     </script>
 </body>
